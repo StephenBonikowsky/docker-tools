@@ -246,7 +246,7 @@
       },
       "3.0/runtime-deps/alpine3.9/arm64v8": {
         "baseImageDigests": {
-          "arm64v8/alpine:3.9": "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68ee"
+          "arm64v8/alpine:3.9": "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68eex"
         }
       },
       "3.0/runtime-deps/bionic/amd64": {
