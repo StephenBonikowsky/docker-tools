@@ -85,58 +85,24 @@
   {
     "repo": "dotnet/core-nightly/runtime-deps",
     "images": {
-      "1.0/runtime-deps/jessie/amd64": {
-        "baseImageDigests": {
-          "debian:jessie": "debian@sha256:2ed9cfd2541c103f81ba4ba78c2cf1e2ea69f4ce2bd9886637a5b3506aa4fce9"
-        }
-      },
-      "1.1/runtime-deps/stretch/amd64": {
-        "baseImageDigests": {
-          "debian:stretch": "debian@sha256:75f7d0590b45561bfa443abad0b3e0f86e2811b1fc176f786cd30eb078d1846f"
-        }
-      },
-      "2.1/runtime-deps/alpine3.7/amd64": {
-        "baseImageDigests": {
-          "alpine:3.7": "alpine@sha256:02c076fdbe7d116860d9fb10f856ed6753a50deecb04c65443e2c6388d97ee35"
-        }
-      },
-      "2.1/runtime-deps/alpine3.9/amd64": {
-        "baseImageDigests": {
-          "alpine:3.9": "alpine@sha256:769fddc7cc2f0a1c35abb2f91432e8beecf83916c421420e6a6da9f8975464b6"
-        }
-      },
-      "2.1/runtime-deps/bionic/amd64": {
-        "baseImageDigests": {
-          "ubuntu:bionic": "ubuntu@sha256:f08638ec7ddc90065187e7eabdfac3c96e5ff0f6b2f1762cf31a4f49b53000a5"
-        }
-      },
-      "2.1/runtime-deps/bionic/arm32v7": {
-        "baseImageDigests": {
-          "arm32v7/ubuntu:bionic": "arm32v7/ubuntu@sha256:3ec1f6d1568eb75573b6410dbd2bc866b6f69cba2fecba4bc808601e87f83711"
-        }
-      },
-      "2.1/runtime-deps/stretch-slim/amd64": {
-        "baseImageDigests": {
-          "debian:stretch-slim": "debian@sha256:105032f50e173e95a84b86a5864ddc0c26c22ce3324b3dab98741601af79aaa4"
-        }
-      },
-      "2.1/runtime-deps/stretch-slim/arm32v7": {
-        "baseImageDigests": {
-          "arm32v7/debian:stretch-slim": "arm32v7/debian@sha256:b601dab644aaea0b41969b3d543f35fa1b27107cfdeae85919e40fc3700064dc"
-        }
-      },
-      "2.2/runtime-deps/alpine3.8/amd64": {
-        "baseImageDigests": {
-          "alpine:3.8": "alpine@sha256:ea47a59a33f41270c02c8c7764e581787cf5b734ab10d27e876e62369a864459"
-        }
-      },
+      "1.0/runtime-deps/jessie/amd64": {},
+      "1.1/runtime-deps/stretch/amd64": {},
+      "2.1/runtime-deps/alpine3.7/amd64": {},
+      "2.1/runtime-deps/alpine3.9/amd64": {},
+      "2.1/runtime-deps/bionic/amd64": {},
+      "2.1/runtime-deps/bionic/arm32v7": {},
+      "2.1/runtime-deps/stretch-slim/amd64": {},
+      "2.1/runtime-deps/stretch-slim/arm32v7": {},
+      "2.2/runtime-deps/alpine3.8/amd64": {},
       "3.0/runtime-deps/alpine3.9/amd64": {
         "baseImages": {
+          "alpine:3.9": "alpine@sha256:769fddc7cc2f0a1c35abb2f91432e8beecf83916c421420e6a6da9f8975464b6",
           "alpine@sha256:769fddc7cc2f0a1c35abb2f91432e8beecf83916c421420e6a6da9f8975464b6": "alpine:3.9"
         }
       },
       "3.0/runtime-deps/alpine3.9/arm64v8": {
         "baseImages": {
+          "arm64v8/alpine:3.9": "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68ee",
           "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68ee": "arm64v8/alpine:3.9"
         }
       },
