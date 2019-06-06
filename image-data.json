@@ -87,13 +87,25 @@
     "images": {
       "1.0/runtime-deps/jessie/amd64": {},
       "1.1/runtime-deps/stretch/amd64": {},
-      "2.1/runtime-deps/alpine3.7/amd64": {},
-      "2.1/runtime-deps/alpine3.9/amd64": {},
+      "2.1/runtime-deps/alpine3.7/amd64": {
+        "baseImages": {
+          "alpine:3.7": "alpine@sha256:02c076fdbe7d116860d9fb10f856ed6753a50deecb04c65443e2c6388d97ee35"
+        }
+      },
+      "2.1/runtime-deps/alpine3.9/amd64": {
+        "baseImages": {
+          "alpine:3.9": "alpine@sha256:769fddc7cc2f0a1c35abb2f91432e8beecf83916c421420e6a6da9f8975464b6"
+        }
+      },
       "2.1/runtime-deps/bionic/amd64": {},
       "2.1/runtime-deps/bionic/arm32v7": {},
       "2.1/runtime-deps/stretch-slim/amd64": {},
       "2.1/runtime-deps/stretch-slim/arm32v7": {},
-      "2.2/runtime-deps/alpine3.8/amd64": {},
+      "2.2/runtime-deps/alpine3.8/amd64": {
+        "baseImages": {
+          "alpine:3.8": "alpine@sha256:ea47a59a33f41270c02c8c7764e581787cf5b734ab10d27e876e62369a864459"
+        }
+      },
       "3.0/runtime-deps/alpine3.9/amd64": {
         "baseImages": {
           "alpine:3.9": "alpine@sha256:769fddc7cc2f0a1c35abb2f91432e8beecf83916c421420e6a6da9f8975464b6"
@@ -101,7 +113,7 @@
       },
       "3.0/runtime-deps/alpine3.9/arm64v8": {
         "baseImages": {
-          "arm64v8/alpine:3.9": "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68eex"
+          "arm64v8/alpine:3.9": "arm64v8/alpine@sha256:9d2b3c9ba598ccd7c4aa49e5ad5b4cf47fb882adc3f5955d5e160b07f26a68ee"
         }
       },
       "3.0/runtime-deps/bionic/amd64": {},
